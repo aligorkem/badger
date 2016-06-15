@@ -20,3 +20,6 @@ let a = @"test"
 // test comment
 // test comment line 2
 
+//another variable
+let b = @"test 2"
+
