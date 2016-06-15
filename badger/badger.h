@@ -15,6 +15,7 @@ FOUNDATION_EXPORT double badgerVersionNumber;
 FOUNDATION_EXPORT const unsigned char badgerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <badger/PublicHeader.h>
+let a = @"test"
 
 // test comment
 // test comment line 2
