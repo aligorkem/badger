@@ -10,6 +10,7 @@
 		2E23AD2A1D10F73800A424F5 /* badger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E23AD291D10F73800A424F5 /* badger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E23AD311D10F73800A424F5 /* badger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E23AD261D10F73800A424F5 /* badger.framework */; };
 		2E23AD361D10F73800A424F5 /* badgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E23AD351D10F73800A424F5 /* badgerTests.swift */; };
+		2E23AD411D10F9D500A424F5 /* test in Resources */ = {isa = PBXBuildFile; fileRef = 2E23AD401D10F9D500A424F5 /* test */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		2E23AD301D10F73800A424F5 /* badgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = badgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E23AD351D10F73800A424F5 /* badgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badgerTests.swift; sourceTree = "<group>"; };
 		2E23AD371D10F73800A424F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E23AD401D10F9D500A424F5 /* test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				2E23AD291D10F73800A424F5 /* badger.h */,
 				2E23AD2B1D10F73800A424F5 /* Info.plist */,
+				2E23AD401D10F9D500A424F5 /* test */,
 			);
 			path = badger;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E23AD411D10F9D500A424F5 /* test in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
