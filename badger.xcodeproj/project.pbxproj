@@ -11,6 +11,8 @@
 		2E23AD311D10F73800A424F5 /* badger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E23AD261D10F73800A424F5 /* badger.framework */; };
 		2E23AD361D10F73800A424F5 /* badgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E23AD351D10F73800A424F5 /* badgerTests.swift */; };
 		2E23AD411D10F9D500A424F5 /* test in Resources */ = {isa = PBXBuildFile; fileRef = 2E23AD401D10F9D500A424F5 /* test */; };
+		2E513E961D13845C00F39E29 /* BGLinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E513E951D13845C00F39E29 /* BGLinearSearch.swift */; };
+		2E513E991D13848500F39E29 /* BGObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E513E981D13848500F39E29 /* BGObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		2E23AD351D10F73800A424F5 /* badgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badgerTests.swift; sourceTree = "<group>"; };
 		2E23AD371D10F73800A424F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E23AD401D10F9D500A424F5 /* test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test; sourceTree = "<group>"; };
+		2E513E951D13845C00F39E29 /* BGLinearSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGLinearSearch.swift; sourceTree = "<group>"; };
+		2E513E981D13848500F39E29 /* BGObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 		2E23AD281D10F73800A424F5 /* badger */ = {
 			isa = PBXGroup;
 			children = (
+				2E513E971D13847200F39E29 /* core */,
+				2E513E941D13844800F39E29 /* algorithm */,
 				2E23AD291D10F73800A424F5 /* badger.h */,
 				2E23AD2B1D10F73800A424F5 /* Info.plist */,
 				2E23AD401D10F9D500A424F5 /* test */,
@@ -87,6 +93,22 @@
 				2E23AD371D10F73800A424F5 /* Info.plist */,
 			);
 			path = badgerTests;
+			sourceTree = "<group>";
+		};
+		2E513E941D13844800F39E29 /* algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				2E513E951D13845C00F39E29 /* BGLinearSearch.swift */,
+			);
+			path = algorithm;
+			sourceTree = "<group>";
+		};
+		2E513E971D13847200F39E29 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				2E513E981D13848500F39E29 /* BGObject.swift */,
+			);
+			path = core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E513E961D13845C00F39E29 /* BGLinearSearch.swift in Sources */,
+				2E513E991D13848500F39E29 /* BGObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +338,7 @@
 		2E23AD3B1D10F73800A424F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -324,12 +349,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.aligorkem.badger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		2E23AD3C1D10F73800A424F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -382,6 +409,7 @@
 				2E23AD3C1D10F73800A424F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E23AD3D1D10F73800A424F5 /* Build configuration list for PBXNativeTarget "badgerTests" */ = {
 			isa = XCConfigurationList;
@@ -390,6 +418,7 @@
 				2E23AD3F1D10F73800A424F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
