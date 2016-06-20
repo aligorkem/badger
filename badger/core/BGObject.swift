@@ -6,8 +6,7 @@
 //  Copyright © 2016 aligorkem. All rights reserved.
 //
 
-import UIKit
 
-class BGObject: NSObject {
+public class BGObject: NSObject {
 
 }
