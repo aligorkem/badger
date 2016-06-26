@@ -1,7 +1,6 @@
 import Foundation
 
 class DataItem {
-    
     enum ItemType : String {
         case Email = "Email Address";
         case Phone = "Telephone Number";

@@ -6,7 +6,7 @@
 //  Copyright © 2016 aligorkem. All rights reserved.
 //
 
-public class BGMergeSort : BGObject {
+private class BGMergeSort : BGObject {
      
      
      func merge(leftPile leftPile: [Int], rightPile: [Int]) -> [Int] {

@@ -6,7 +6,7 @@
 //  Copyright © 2016 aligorkem. All rights reserved.
 //
 
-public struct BGStack<T> {
+private struct BGStack<T> {
      
      private var array = [T]()
      

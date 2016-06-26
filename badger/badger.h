@@ -13,3 +13,5 @@ FOUNDATION_EXPORT double badgerVersionNumber;
 
 //! Project version string for badger.
 FOUNDATION_EXPORT const unsigned char badgerVersionString[];
+
+
